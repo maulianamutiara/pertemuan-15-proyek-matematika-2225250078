@@ -1,6 +1,6 @@
 # Bug Log
 
-Nama Proyek: Program Rekap dan Analisis Nilai Matematika Kelas
+**Nama Proyek:** Program Rekap dan Analisis Nilai Matematika Kelas
 
 | ID Bug | Gejala | Penyebab | Perbaikan | Status |
 |---|---|---|---|---|
@@ -10,4 +10,4 @@ Nama Proyek: Program Rekap dan Analisis Nilai Matematika Kelas
 
 ## Kesimpulan
 
-Bug ditangani dengan menambahkan validasi input, pemeriksaan data kosong, dan batas nilai. Setelah perbaikan, program perlu diuji kembali untuk memastikan fitur lainnya tetap berjalan.
+Bug ditangani dengan menambahkan validasi input, pemeriksaan data kosong, dan batas nilai. Setelah perbaikan, program diuji kembali untuk memastikan fitur berjalan sesuai kebutuhan.
