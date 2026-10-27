@@ -1,70 +1,75 @@
 # Program Rekap dan Analisis Nilai Matematika Kelas
 
-## Identitas Mahasiswa
+## 1. Deskripsi
+
+Program Rekap dan Analisis Nilai Matematika Kelas merupakan program Python sederhana yang digunakan untuk membantu menghitung dan menganalisis nilai matematika siswa. Pengguna memasukkan jumlah siswa dan nilai masing-masing siswa. Program kemudian menampilkan jumlah siswa, rata-rata nilai, nilai minimum, nilai maksimum, jumlah siswa yang lulus, dan jumlah siswa yang tidak lulus.
+
+## 2. Fitur
+
+- Memasukkan jumlah siswa.
+- Memasukkan nilai setiap siswa.
+- Menghitung rata-rata nilai siswa.
+- Menentukan nilai minimum dan maksimum.
+- Menghitung jumlah siswa yang lulus dan tidak lulus.
+- Memvalidasi input agar nilai berupa angka dari 0 sampai 100.
+- Menangani input yang tidak valid.
+- Menangani data kosong pada fungsi analisis.
+
+## 3. Persyaratan
+
+- Python 3.
+- Visual Studio Code.
+- Terminal untuk menjalankan program.
+
+## 4. Cara Menjalankan
+
+1. Buka folder proyek di Visual Studio Code.
+2. Buka terminal pada folder proyek.
+3. Jalankan perintah berikut:
+
+   `python main.py`
+
+4. Masukkan jumlah siswa sesuai petunjuk.
+5. Masukkan nilai setiap siswa.
+6. Periksa hasil analisis yang ditampilkan pada terminal.
+
+Untuk menjalankan pengujian otomatis, gunakan perintah:
+
+`python -m unittest discover -s tests -v`
+
+## 5. Struktur Folder
+
+- `main.py`: menjalankan program dan menerima input dari pengguna.
+- `proses.py`: berisi fungsi validasi dan analisis nilai.
+- `tests/test_proses.py`: berisi pengujian otomatis fungsi program.
+- `tests/test_case.md`: berisi tabel pengujian dan hasil yang dicatat.
+- `docs/bug_log.md`: berisi catatan bug, penyebab, perbaikan, dan status.
+- `.gitignore`: mengatur file yang tidak perlu dimasukkan ke repositori Git.
+
+## 6. Aturan Kelulusan
+
+Siswa dinyatakan lulus jika memperoleh nilai lebih besar dari atau sama dengan 60. Siswa dengan nilai di bawah 60 dinyatakan tidak lulus. Nilai yang diterima program berada pada rentang 0 sampai 100.
+
+## 7. Test Case
+
+Pengujian mencakup perhitungan rata-rata, penentuan kelulusan, input berupa huruf, nilai di luar rentang, nilai minimum dan maksimum, serta kondisi data kosong.
+
+Rincian input, hasil yang diharapkan, hasil aktual, dan status pengujian dicatat dalam file `tests/test_case.md`. Pengujian otomatis tersedia pada file `tests/test_proses.py`.
+
+## 8. Known Issues
+
+Program saat ini menampilkan hasil analisis melalui terminal dan belum memiliki fitur untuk menyimpan hasil ke file. Fitur penyimpanan tidak termasuk dalam versi program saat ini.
+
+## 9. Anggota dan Kontribusi
 
 - Nama: Mauliana Mutiara
 - NIM: 2225250078
 - Kelas: 3A
 - Mata Kuliah: Algoritma dan Pemrograman
-- Pengerjaan: Individu
+- Kontribusi: mengembangkan program, melakukan pengujian, memperbaiki kesalahan, dan menyusun dokumentasi proyek.
 
-## Deskripsi
+## 10. Referensi dan Bantuan
 
-Program ini dibuat untuk membantu proses rekap dan analisis nilai matematika siswa. Program menerima nilai siswa, kemudian menghitung rata-rata, nilai minimum, nilai maksimum, jumlah siswa yang lulus, dan jumlah siswa yang tidak lulus.
-
-## Fitur
-
-1. Memasukkan jumlah siswa dan nilai masing-masing siswa.
-2. Menghitung rata-rata nilai.
-3. Menentukan nilai minimum dan maksimum.
-4. Menghitung jumlah siswa yang lulus dan tidak lulus.
-5. Memvalidasi input agar berupa angka dalam rentang 0 sampai 100.
-6. Menangani kondisi ketika data kosong pada fungsi analisis.
-
-## Persyaratan
-
-- Python 3
-- Visual Studio Code
-
-## Cara Menjalankan
-
-1. Buka folder proyek di VS Code.
-2. Buka terminal.
-3. Jalankan perintah:
-
-   `python main.py`
-
-4. Masukkan jumlah siswa.
-5. Masukkan nilai setiap siswa sesuai petunjuk program.
-
-## Struktur Folder
-
-- `main.py`: program utama dan interaksi dengan pengguna.
-- `proses.py`: fungsi validasi dan analisis nilai.
-- `tests/test_case.md`: dokumentasi pengujian.
-- `docs/bug_log.md`: catatan bug dan perbaikan.
-- `.gitignore`: daftar file yang tidak perlu diunggah.
-
-## Aturan Kelulusan
-
-Siswa dinyatakan lulus jika nilai lebih besar dari atau sama dengan 60.
-
-## Pengujian
-
-Pengujian mencakup perhitungan rata-rata, batas kelulusan, input huruf, nilai di luar rentang, nilai minimum dan maksimum, data kosong, dan jumlah siswa yang tidak valid.
-
-Hasil pengujian akhir dicatat dalam `tests/test_case.md`.
-
-## Known Issues
-
-Program belum menyimpan hasil analisis ke file. Hasil ditampilkan melalui terminal.
-
-## Kontribusi
-
-Proyek ini dikerjakan secara individu oleh Mauliana Mutiara.
-
-## Bantuan dan Referensi
-
-- Modul Bahan Ajar Pertemuan 15 Algoritma dan Pemrograman.
+- Bahan Ajar Pertemuan 15: Implementasi, Pengujian, dan Dokumentasi Proyek Python di VS Code, Git, dan GitHub.
 - Dokumentasi Python: https://docs.python.org/3/
-- Bantuan AI digunakan untuk membantu memahami struktur program dan pengujian.
+- Bantuan AI digunakan untuk membantu memahami dan menyusun program serta dokumentasinya.
